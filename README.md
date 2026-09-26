@@ -95,6 +95,7 @@ Admin resources are explicitly mapped in `lib/resources.ts`, so route resource n
 ## Next implementation steps
 
 For a production deployment, add:
+
 - email OTP/password recovery using Supabase Auth email templates
 - server-side validation with Zod
 - audit logs
